@@ -1,0 +1,182 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav .page-title{
+  height: 100%;
+}
+
+nav ul a{
+  color:black;
+}
+
+p {
+  line-height: 2rem;
+}
+
+li div{
+  padding:5px;
+  background: rgba(0,0,0,0.3)
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.glass{
+  background: rgba(0,0,0,0.3);
+}
+#map{
+  margin: 0;
+  padding: 0;
+  height: 300px;
+}
+
+nav div a{
+  margin-left: 20px;
+}
+body, nav{
+  background: #f7f7f7;
+}
+
+.invisible{
+  opacity: 0;
+}
+
+
+
+nav{
+  background: white;
+}
+nav ul a:hover{
+  background-color: #4fc3f7;
+  color:white;
+}
+
+.side-nav a:hover {
+  background-color: #4fc3f7;
+  color:white;
+}
+
+nav div a img:hover{
+  height:102%;
+}
+
+.red{
+  background: red;
+}
+
+.white-text{
+  color:white;
+}
+
+.fill-screen-almost{
+  height:calc(100vh - 64px);
+}
+
+.fill-screen{
+  height: 105vh;
+}
+
+h1{
+  font-size: 700%;
+}
+
+h3{
+  font-size:350%;
+}
+h6{
+  font-size:175%;
+}
+.loopy {
+  font: 400 400% 'Cookie', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+.loopy-large{
+  font: 400 900% 'Cookie', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
+.margin-below{
+  margin-bottom: 64px;
+}
+
+
+ul
+{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+}
+
+li div{
+  background: inherit;
+}
+
+#points li{
+  opacity: 0;
+}
+
+.margin-above{
+  margin-top: 64px;
+}
+
+.stand-out{
+  color: #81d4fa;
+  font-size:150%;
+}
+
+.carousel .card{
+  height:100%;
+}
+
+#forward, #back {
+     cursor: pointer
+}
+
+
+
+
