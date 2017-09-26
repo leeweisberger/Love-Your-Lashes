@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=.7, maximum-scale=.7, user-scalable=no"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
   <title>Love Your Look Beauty Studio</title>
 
   <!-- CSS  -->
-  <link href="css/icons.css" rel="stylesheet"/>
   <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="css/animate.css"/>
-  <link href='css/cookie' rel='stylesheet' type='text/css'>
+  <link href='css/cookie.css' rel='stylesheet' type='text/css'>
+  <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
   <nav role="navigation">
     <div class="nav-wrapper container">
-      <a href="#" class="hide-on-med-and-down">
-        <img src="images/logo.png" class="page-title hide-on-med-and-down">
-      </a>
+        <!-- <img src="images/logo.png" class="page-title hide-on-med-and-down"> -->
       <ul class="right hide-on-med-and-down">
         <li><a href="#about">About Me</a></li>
         <li><a href="#services">My Services</a></li>
@@ -26,90 +24,178 @@
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <a href="#">
+        <!-- <a href="#">
           <img src="images/logo.png" class="page-title">
-        </a>
+        </a> -->
         <li><a href="#about">About Me</a></li>
         <li><a href="#services">My Services</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi mdi-menu"></i></a>
     </div>
   </nav>
 
+    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+        <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
+        <a id="Setmore_button_iframe" href="https://my.setmore.com/bookingpage/3ab107c2-72c7-450f-b132-d2f255649a74" class="btn-floating btn-large waves-effect waves-light light-blue lighten-2 tooltipped" data-position="top" data-delay="50" data-tooltip="Book an Appointment"><i class="mdi mdi-calendar-plus"></i></a>
+
+        </div>
+
   <div id="index-banner" class="valign-wrapper fill-screen-almost parallax-container glass">
     <div class="container valign">
-      <h1 id="business_name" class="center white-text loopy-large">Love Your Look Beauty Studio</h1>
+      <h1 id="business_name" class="hide-on-large-only center white-text loopy-med">Love Your Look Beauty Studio</h1>
+      <h1 id="business_name" class="hide-on-med-and-down center white-text loopy-large">Love Your Look Beauty Studio</h1>
+
       <div class="row center">
         <h6 style="display:inline;" class="light">Love your</h6><h6 id="lashes" style="display:inline;" class="loopy"> Lashes </h6><h6 style="display:inline;" class="light">Love your</h6><h6 id="brows" style="display:inline;" class="loopy"> Brows </h6> <h6 style="display:inline;" class="light">Love your</h6><h6 id="look" style="display:inline;" class="loopy"> Look</h6>
       </div>
       <div class="row center">
-        <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script>
-        <a id="Setmore_button_iframe" href="https://my.setmore.com/bookingpage/455269ae-f0ef-48ed-9f90-2bd973718d82" class="btn-large waves-effect waves-light light-blue lighten-2 hoverable">Book An Appointment</a>
+        
+        <a id="Setmore_button_iframe" href="https://my.setmore.com/bookingpage/3ab107c2-72c7-450f-b132-d2f255649a74" class="btn-large waves-effect waves-light light-blue lighten-2 hoverable">Book An Appointment</a>
         <!-- <a href="#contact" class="btn-large waves-effect waves-light teal hoverable">Contact Me</a> -->
 
       </div>
     </div>
-    <div class="parallax"><img src="images/entrance.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-  <!-- Second Section -->
-  <div class="deep-purple darken-3 white-text valign-wrapper fill-screen">
-    <div style="width:85%;" class="container valign">
-      <!--   Icon Section   -->
-      <div class="row margin-below">
-        <ul id="points">
-          <li>
-            <div class="col s12 l4 hoverable">
-              <div class="center icon-block">
-                <h3><i class="material-icons lime-text">done</i></h3>
-                <h3>Quality</h3>
-                <p class="light">With over 11 years of experience and a passion for lashes, I put my all into each and every customer.</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="col s12 l4 hoverable">
-              <div class="center icon-block">
-                <h3><i class="material-icons lime-text">flash_on</i></h3>
-                <h3>Creativity</h3>
-                <p class="light">Let me bring your lashes and brows to life! Come in with an idea and leave with a whole new look.</p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="col s12 l4 hoverable">
-              <div class="center icon-block">
-                <h3><i class="material-icons lime-text">track_changes</i></h3>
-                <h3>Cutting Edge</h3>
-                <p class="light">In a fast moving industry, I am always on top of the latest trends and fashions.</p>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Testimonies -->
-      <div id="quotes" class="row">
-        <div class="col s12 m6">
-          <div class="card-panel light-blue lighten-2 hoverable">
-            <span class="white-text">"Sue is an outstanding seamstress. She is so accommodating when alterations are needed in a hurry. She is very easy to get in touch with for dropping off and picking up clothes. I am a petite person who needs many alterations and I am so glad that I found her!!"
-            </span>
-          </div>
-        </div>
-        <div class="col s12 m6">
-          <div class="card-panel light-blue lighten-2 hoverable">
-            <span class="white-text">“Sue has altered everything from prom dresses to boys suits to work clothes for me and my family and the work is always meticulous.  Her great work is always completed on time and when promised.  You will not regret using her services for any alteration!”
-            </span>
-          </div>
-        </div>
-      </div>
+    <div class="parallax">
+      <img src="images/entrance.jpg" alt="Unsplashed background img 1">
     </div>
   </div>
 
+    <!-- Services -->
+    <div id="services" class="fill-screen container center section">
+
+      <h2>My Services</h2>
+      <div class="row"> 
+        <div id="slider1" class="col l6 s12 invisible">
+          <h4>Eyelash Extensions</h4>
+          <div class="slider">
+            <ul class="slides">
+              <li> <img src="images/lashes1.jpg"> </li>
+              <li> <img src="images/lashes2.jpg"> </li>
+              <li> <img src="images/lashes3.jpg"> </li>
+              <li> <img src="images/lashes4.jpg"> </li>
+              <li> <img src="images/lashes5.jpg"> </li>
+            </ul>
+          </div>       
+        </div>
+        <div id="slider2" class="col l6 s12 invisible">
+          <h4>Semi-permanent Cosmetics</h4>
+          <div class="slider">
+            <ul class="slides">
+              <li> <img src="images/makeup1.jpg"> </li>
+              <li> <img src="images/makeup2.jpg"> </li>
+              <li> <img src="images/makeup3.jpg"> </li>
+              <li> <img src="images/makeup4.jpg"> </li>
+              <li> <img src="images/makeup5.jpg"> </li>
+              <li> <img src="images/makeup6.jpg"> </li>
+              <li> <img src="images/makeup7.jpg"> </li>
+            </ul>
+          </div>       
+        </div>
+      </div>
+      <div class="row">
+        <div class="col l6 s12">         
+          <ul style="box-shadow: none; border:none;" class="collapsible" data-collapsible="accordion">
+          <li>
+          <div class="collapsible-header"><i class="mdi mdi-arrow-expand-all"></i>Eyelash Extension FAQs</div>
+          <div style="padding:0px; border-bottom:none;" class="collapsible-body">
+            <ul class="collapsible popout" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>What are eyelash extensions?</div>
+                <div class="collapsible-body"><p>Lash Extensions are a glamorous new way to extend the length and thickness of natural eyelashes, and are a practical, convenient and beautiful alternative to the daily use of mascara. Unlike decades-old, traditional false lashes, lash extensions are the first innovation in lash lengthening that can be worn daily, without nightly removal. Because each tapered, synthetic lash is bonded to a single natural lash, the final result is of effortless glamour and difficult to detect even close up.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>How long do they really last?</div>
+                <div class="collapsible-body"><p>When properly applied,lash extensions can be worn throughout the year with minimal monthly maintenance. Touch-ups are recommended after the initial full set application to refill any lashes that have cycled out. To maintain the full, thick appearance of a new set of lashes a visit to your beauty/lash professional is recommended every 2-3 weeks based on your own natural lash growth cycle.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Can lash extensions harm normal lashes?</div>
+                <div class="collapsible-body"><p>When applied properly, lash extensions will not harm natural lashes.  Several different “separation” steps occur during the application process so each extension is adhered to a single natural lash in order to prevent interruption of the lash growth cycle.</p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Can mascara be used with lash extensions?</div>
+                <div class="collapsible-body"><p>Mascara is typically not needed with lash extensions. Mascara should only be used when a touch-up is drawing near. Water-soluble mascara can be worn; however constant use of mascara may shorten the lifespan of lashes. Waterproof mascara is not recommended for use, as it will dissolve the bond with the lashes. </p></div>
+              </li>
+              <li>
+                <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Once applied, what is the proper way to take care of lashes?</div>
+                <div class="collapsible-body"><p>Nightly cleansing and conditioning is necessary to maximize the life of the extensions. Using a lash wand to comb the lashes free of tangles is also recommended. You shouldn’t leave a hair salon without top of the line hair products – same with your lashes!</p></div>
+              </li>
+            </ul>
+          </div>
+          </li>
+            </ul>
+
+
+
+
+        </div>
+        <div class="col l6 s12">
+          <ul style="box-shadow: none; border:none;" class="collapsible" data-collapsible="accordion">
+          <li>
+          <div class="collapsible-header"><i class="mdi mdi-arrow-expand-all"></i>Permanent Makeup FAQs</div>
+          <div style="padding:0px; border-bottom:none;" class="collapsible-body">
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>What is permanent makeup</div>
+              <div class="collapsible-body"><p>Permanent cosmetic makeup is cosmetic tattooing. The specialized techniques used for permanent cosmetics are often referred to as “micropigmentation”, “micropigment implantation” or “dermagraphics”. The cosmetic implantation technique deposits colored pigment into the upper reticular layer of the dermis.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>How are Permanent Cosmetic Procedures Performed?</div>
+              <div class="collapsible-body"><p>Permanent cosmetics procedures are performed using various devices, including the traditional tattoo coil machines, the pen or rotary machine (includes the digital rotary machines) and the non-machine or hand device. The process includes a consultation, the application of pigment, and at least one or more follow up visits for evaluating the healed design work and color of the pigment.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Who Benefits from Permanent Makeup?</div>
+              <div class="collapsible-body"><p>People who meet minimum age requirements and have the ability to heal properly from minor wounds can benefit from the liberating benefits of permanent cosmetics.Interest in this service spans the young to the more mature; those who desire a soft, natural enhancement to their appearance. It is especially  valuable to people who can’t wear traditional cosmetics due to allergies and skin sensitivities; active people who want to look their best for sports activities such as swimming, hiking, biking, tennis, aerobics; and those who don’t want to worry about “sweating off” or reapplying cosmetics.Permanent Cosmetics also benefits the vision challenged who have difficulty applying their cosmetics; and others with dexterity related conditions  such as arthritis, Parkinson’s disease, multiple sclerosis, stroke survivors, and busy people who don’t have time to spend applying and refreshing makeup throughout the day and evening.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i> What Type of Permanent Cosmetic Procedures can be Done?</div>
+              <div class="collapsible-body"><p>Permanent Cosmetic procedures can be very subtle or dramatic depending on what you are looking for. Options include: eyebrows, eyeliner (top and bottom), lipliner</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Are Permanent Cosmetics Really Permanent?</div>
+              <div class="collapsible-body"><p>Permanent cosmetics procedures are considered permanent because pigment is tattooed into the upper reticular part of the dermal layer of the skin and cannot be washed off. However, as with any tattoo or colorant (pigment) in general, fading can and often does occur, requiring periodic maintenance referred to as color re-enhancement or color refreshing. The scientific structure of pigments and the requirement for periodic refreshing is identical to that of tinted hair color; faded material on furniture that may be located near a window and subject to sun exposure; house paint that is exposed to the sun and other environmental elements; pigment implanted in the skin may fade with time.This colorant periodic maintenance requirement is a good opportunity to reevaluate one’s color and design preferences.  While the concept of permanent, without any change, may seem like a perfectly good idea, think about how your tastes have changed over the years.  From time to time likely you have made subtle or dramatic changes in your clothing preferences, your hair color and style, and if you wear topical makeup, those colors have changed as well.The fact that most people will require periodic color refreshing of their permanent cosmetics is the opportune time to work with your technician to reevaluate your overall appearance profile and determine if any changes are appropriate.Longevity varies from person to person depending on their lifestyle (sun exposure), the color(s) used for the permanent cosmetic procedure, and are also thought to be affected by topical products applied to the skin.</p></div>
+            </li>   
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>How Long Does Each Procedure Take?</div>
+              <div class="collapsible-body"><p>The initial procedure will generally take approximately 2 to 2 ½ hours; there are records to establish; photographs to take; desired design and color to discuss; the procedure to perform; and the aftercare requirements to discuss. Follow up or color refresher procedures usually do not require the same amount of time.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Is It Painful?</div>
+              <div class="collapsible-body"><p>A highly-effective, topical anesthetic cream and liquid are used to numb the area before and during your procedure ensuring that you remain comfortable. Most people experience some discomfort. This will vary according to each individual’s pain threshold.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Are There Any Side Effects During or After the Procedure?</div>
+              <div class="collapsible-body"><p>While eyebrows may show little after effect, eyeliner and lips may show slight to moderate swelling.  This is very dependent upon the amount of work performed.As examples; an eyelash enhancement will show very little response to the tattooing procedure compared to a more moderate response when wide eyeliner is performed.  The same philosophy applies to lip color procedures.  A lip liner or blended lip liner will show less effects of the procedure than that of a full lip color.  Also, some people swell more from minor skin infractions than others.During the procedure there may be some minor bleeding.  This again, is client specific.  Many people take blood thinners on a daily basis so some slight bleeding would be expected.  Others show little or no signs of bleeding.  Bruising is rare but again, if a person is on blood thinners, bruising could occur.  What is seen more often is that eyebrows rarely if ever produce any bruising; minor bruising during eyeliner procedures is possible if the skin being tattooed is very thin and close to the vascular system.  This also applies to lip procedures in the event the client is more mature.   If bruising does occur, typically it is minor and subsides in a few days.There is usually some tenderness for a few days. The color is much darker than you may expect for the first six to ten days. <br><br>Other less often reported side effects are difficult to determine due to the individuality of each person’s biological system.  This is why professional permanent cosmetic technicians require a client history profile be filled out to assess different factors that may contribute to your experience after the tattooing procedure has been completed.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Do The Pigments Pose Allergy Problems?</div>
+              <div class="collapsible-body"><p>People can develop an allergy to anything, anytime; however, pigment allergies are considered rare. Some doctors recommend that people with environmental allergies or allergies to conventional makeup have permanent cosmetic procedures because they can replace cosmetic products that people are sensitive to.  While allergic reactions to any type of tattooing pigments on the body or on the face through permanent cosmetics may occur at any point in time, they are extremely rare.  Ask your technician if their pigments meet their local jurisdictional requirements.  Also, SPCP pigment suppliers are required to list the ingredients on their pigment labels.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Is There Any Possibility for Medical Problems?</div>
+              <div class="collapsible-body"><p>The possibility that you would have any problems or reactions from these procedures is almost non-existent with today’s health standards. SPCP member professionals are given continued opportunities for education in practicing precise methods of disinfection and sterilization.Post procedural instructions, if followed carefully, will greatly reduce any risk. Medical problems associated with permanent cosmetics are often linked to poor attention to the required aftercare process on behalf of the client.Choose a time for procedures when you feel confident you can follow the simple, but very important after care instructions.</p></div>
+            </li> 
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>What’s a Touch-Up and Do I Need One?</div>
+              <div class="collapsible-body"><p>Often the tattooed color is not perfect after the initial procedure heals. Permanent cosmetic procedures are a process and at least one follow-up to the initial procedure should be scheduled.It is recommended that any required detail work to the original procedure be performed no sooner than four weeks after the original procedure.The minimum standard for follow-up detail work for lip procedures is six weeks.  Lips have a different healing agenda than procedures performed on other parts of the face due to their delicate nature.The cited time frames will vary depending on the health profile and age of the client, but these are good minimum standards for consideration.</p></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="mdi mdi-help-circle"></i>Can I Still Have an MRI Scan?</div>
+              <div class="collapsible-body"><p>Numerous studies have shown that even for people who have large body tattoos there is little to no potential for irritation resulting from an MRI.In the rare instance where discomfort resulted, it was localized and very temporary. However, with that said, it is prudent to advise your MRI technician that you have permanent cosmetics.</p></div>
+            </li>     
+          </ul>
+          </div>
+          </li>
+            </ul>
+        </div>
+
+      </div>
+    </div>
+
+  
+
   <!-- About Me -->
-  <div class="fill-screen blue-grey white-text">
+  <div class="fill-screen light-blue lighten-3 white-text section">
     <!-- <div class="parallax-container valign-wrapper">
       <div class="parallax"><img src="images/sue_sewing.jpg" alt="Unsplashed background img 2"></div>
     </div> -->
@@ -117,8 +203,10 @@
     <div class="container">
 
       <div id="about" class="row">
-        <div class="col l3 s12">
-          <img class ="margin-above responsive-img circle" src="images/chrissy.jpg">
+        <div class="col l3 s12 center">
+          <img style="max-height:300px;" class ="margin-above responsive-img circle" src="images/chrissy.jpg">
+          <a href="https://www.facebook.com/loveyourlookbeautystudio" target="_blank"> <i style="display:block; font-size:50px;" class="mdi mdi-facebook"></i></a>
+          <a href="https://www.instagram.com/loveyourlook_beautystudio" target="_blank"> <i style="display:block; font-size:50px;" class="mdi mdi-instagram"></i></a>
         </div>
         <div class="col l9 s12">
           <h2>Chrissy Occorso</h2>
@@ -133,268 +221,119 @@
     </div>
   </div>
 
-  <!-- Services -->
-  <div >
-    <!-- <div class="parallax-container valign-wrapper">
-      <div class="parallax"><img src="images/Sewing.jpg" alt="Unsplashed background img 2"></div>
-    </div> -->
 
-    <div class="container">
-
-      <div id="services" class="section">
-        <div class="center">
-          <h2>My Services</h2>
-          <div class="row"> 
-            <div id="slider1" class="col m6 s12 invisible hoverable">
-              <h4>Eyelash Extensions</h4>
-              <div class="slider">
-                <ul class="slides">
-                  <li>
-                    <img src="images/lashes1.jpg">     
-                  </li>
-                  <li>
-                    <img src="images/lashes2.jpg">        
-                  </li>
-                  <li>
-                    <img src="images/lashes3.jpg"> 
-                  </li>
-                  <li>
-                    <img src="images/lashes4.jpg"> 
-                  </li>
-                  <li>
-                    <img src="images/lashes5.jpg"> 
-                  </li>
-
-                </ul>
-              </div>       
-            </div>
-            <div id="slider2" class="col m6 s12 invisible hoverable">
-              <h4>Semi-permanent Cosmetics</h4>
-              <div class="slider">
-                <ul class="slides">
-                  <li>
-                    <img src="images/pillows.jpg"> 
-                    <div class="caption center-align">
-                      <h3>Pillows</h3>
-                      <h5 class="light grey-text text-lighten-3">Let me create your new pillows!</h5>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="images/curtains.jpg"> 
-                    <div class="caption left-align">
-                      <h3>Curtains</h3>
-                      <h5 class="light grey-text text-lighten-3">Custom and alterned curtains.</h5>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="images/windows.jpg"> 
-                    <div class="caption right-align">
-                      <h3>Windows</h3>
-                      <h5 class="light grey-text text-lighten-3">Custom window treatments.</h5>
-                    </div>
-                  </li>
-                </ul>
-              </div>       
-            </div>
-          </div>
-          <!-- I have literally not one clue why this needs to be here. So just leave it and deal with it. -->
-          
-          <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
-          </div>
-          <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
-          </div>
-
-          <div class="row">
-
-
-            <div class="col l6 s6">
-
-
-              <h3>FAQs</h3>
-              <div class = "row valign-wrapper">
-                <div class = "col l1 s1 valign">
-                  <a id="back" class="material-icons left">arrow_back</a>
-                </div>
-                <div class = "col l10 s10">
-                  <div class="carousel carousel-slider">   
-                    <div class="carousel-item card">
-                      <!-- I have literally not one clue why this needs to be here. So just leave it and deal with it. -->
-                      <img  style="display: none;" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg">
-                      <img  style="display: none;" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg">
-                      <img  style="display: none;" src="http://i.telegraph.co.uk/multimedia/archive/03589/Wellcome_Image_Awa_3589699k.jpg">
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">What is Permanent cosmetic makeup?<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                        <p>Permanent cosmetic makeup is cosmetic tattooing. The specialized techniques used for permanent cosmetics are often referred to as “micropigmentation”, “micropigment implantation” or “dermagraphics”. The cosmetic implantation technique deposits colored pigment into the upper reticular layer of the dermis.</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item card">
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">How are Permanent Cosmetic Procedures Performed?<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                        <p>Permanent cosmetics procedures are performed using various devices, including the traditional tattoo coil machines, the pen or rotary machine (includes the digital rotary machines) and the non-machine or hand device. The process includes a consultation, the application of pigment, and at least one or more follow up visits for evaluating the healed design work and color of the pigment.</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item card">
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Who Benefits from Permanent Makeup?<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                        <p>People who meet minimum age requirements and have the ability to heal properly from minor wounds can benefit from the liberating benefits of permanent cosmetics.Interest in this service spans the young to the more mature; those who desire a soft, natural enhancement to their appearance. It is especially  valuable to people who can’t wear traditional cosmetics due to allergies and skin sensitivities; active people who want to look their best for sports activities such as swimming, hiking, biking, tennis, aerobics; and those who don’t want to worry about “sweating off” or reapplying cosmetics.Permanent Cosmetics also benefits the vision challenged who have difficulty applying their cosmetics; and others with dexterity related conditions  such as arthritis, Parkinson’s disease, multiple sclerosis, stroke survivors, and busy people who don’t have time to spend applying and refreshing makeup throughout the day and evening.</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item card">
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">What Type of Permanent Cosmetic Procedures can be Done?<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                        <p>Permanent Cosmetic procedures can be very subtle or dramatic depending on what you are looking for. Options include: eyebrows, eyeliner (top and bottom), lipliner.</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item card">
-                      <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Are Permanent Cosmetics Really Permanent?<i class="material-icons right">more_vert</i></span>
-                      </div>
-                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                        <p>Permanent cosmetics procedures are considered permanent because pigment is tattooed into the upper reticular part of the dermal layer of the skin and cannot be washed off. However, as with any tattoo or colorant (pigment) in general, fading can and often does occur, requiring periodic maintenance referred to as color re-enhancement or color refreshing. The scientific structure of pigments and the requirement for periodic refreshing is identical to that of tinted hair color; faded material on furniture that may be located near a window and subject to sun exposure; house paint that is exposed to the sun and other environmental elements; pigment implanted in the skin may fade with time.This colorant periodic maintenance requirement is a good opportunity to reevaluate one’s color and design preferences.  While the concept of permanent, without any change, may seem like a perfectly good idea, think about how your tastes have changed over the years.  From time to time likely you have made subtle or dramatic changes in your clothing preferences, your hair color and style, and if you wear topical makeup, those colors have changed as well.The fact that most people will require periodic color refreshing of their permanent cosmetics is the opportune time to work with your technician to reevaluate your overall appearance profile and determine if any changes are appropriate.Longevity varies from person to person depending on their lifestyle (sun exposure), the color(s) used for the permanent cosmetic procedure, and are also thought to be affected by topical products applied to the skin.</p>
-                      </div>
-                    </div><div class="carousel-item card">
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">How Long Does Each Procedure Take?<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                      <p>The initial procedure will generally take approximately 2 to 2 ½ hours; there are records to establish; photographs to take; desired design and color to discuss; the procedure to perform; and the aftercare requirements to discuss. Follow up or color refresher procedures usually do not require the same amount of time.</p>
-                    </div>
-                  </div><div class="carousel-item card">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Is It Painful?<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                    <p>A highly-effective, topical anesthetic cream and liquid are used to numb the area before and during your procedure ensuring that you remain comfortable. Most people experience some discomfort. This will vary according to each individual’s pain threshold.</p>
-                  </div>
-                </div>
-                <div class="carousel-item card">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Are There Any Side Effects During or After the Procedure?<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                    <p>While eyebrows may show little after effect, eyeliner and lips may show slight to moderate swelling.  This is very dependent upon the amount of work performed.As examples; an eyelash enhancement will show very little response to the tattooing procedure compared to a more moderate response when wide eyeliner is performed.  The same philosophy applies to lip color procedures.  A lip liner or blended lip liner will show less effects of the procedure than that of a full lip color.  Also, some people swell more from minor skin infractions than others.During the procedure there may be some minor bleeding.  This again, is client specific.  Many people take blood thinners on a daily basis so some slight bleeding would be expected.  Others show little or no signs of bleeding.  Bruising is rare but again, if a person is on blood thinners, bruising could occur.  What is seen more often is that eyebrows rarely if ever produce any bruising; minor bruising during eyeliner procedures is possible if the skin being tattooed is very thin and close to the vascular system.  This also applies to lip procedures in the event the client is more mature.   If bruising does occur, typically it is minor and subsides in a few days.There is usually some tenderness for a few days. The color is much darker than you may expect for the first six to ten days.<br><br>Other less often reported side effects are difficult to determine due to the individuality of each person’s biological system.  This is why professional permanent cosmetic technicians require a client history profile be filled out to assess different factors that may contribute to your experience after the tattooing procedure has been completed.</p>
-                  </div>
-                </div>
-                <div class="carousel-item card">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4"> Do The Pigments Pose Allergy Problems?<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                    <p>People can develop an allergy to anything, anytime; however, pigment allergies are considered rare. Some doctors recommend that people with environmental allergies or allergies to conventional makeup have permanent cosmetic procedures because they can replace cosmetic products that people are sensitive to.  While allergic reactions to any type of tattooing pigments on the body or on the face through permanent cosmetics may occur at any point in time, they are extremely rare.  Ask your technician if their pigments meet their local jurisdictional requirements.  Also, SPCP pigment suppliers are required to list the ingredients on their pigment labels.</p>
-                  </div>
-                </div>
-                <div class="carousel-item card">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Is There Any Possibility for Medical Problems?<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                    <p>The possibility that you would have any problems or reactions from these procedures is almost non-existent with today’s health standards. SPCP member professionals are given continued opportunities for education in practicing precise methods of disinfection and sterilization.Post procedural instructions, if followed carefully, will greatly reduce any risk. Medical problems associated with permanent cosmetics are often linked to poor attention to the required aftercare process on behalf of the client.Choose a time for procedures when you feel confident you can follow the simple, but very important after care instructions.</p>
-                  </div>
-                </div>
-                <div class="carousel-item card">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">What’s a Touch-Up and Do I Need One?<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                    <p>Often the tattooed color is not perfect after the initial procedure heals. Permanent cosmetic procedures are a process and at least one follow-up to the initial procedure should be scheduled.It is recommended that any required detail work to the original procedure be performed no sooner than four weeks after the original procedure.The minimum standard for follow-up detail work for lip procedures is six weeks.  Lips have a different healing agenda than procedures performed on other parts of the face due to their delicate nature.The cited time frames will vary depending on the health profile and age of the client, but these are good minimum standards for consideration.</p>
-                  </div>
-                </div>
-                <div class="carousel-item card">
-                  <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Can I Still Have an MRI Scan?<i class="material-icons right">more_vert</i></span>
-                  </div>
-                  
-                  <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Answer<i class="material-icons right">close</i></span>
-                    <p>Numerous studies have shown that even for people who have large body tattoos there is little to no potential for irritation resulting from an MRI.In the rare instance where discomfort resulted, it was localized and very temporary. However, with that said, it is prudent to advise your MRI technician that you have permanent cosmetics.</p>
-                  </div>
-                </div>
-
-
+<!-- Second Section -->
+  <div class="purple accent-2 white-text valign-wrapper fill-screen">
+    <div style="width:85%;" class="container valign">
+      <!--   Icon Section   -->
+      <div class="row margin-below">
+        <ul id="points">
+          <li>
+            <div class="col s12 l4 hoverable">
+              <div class="center icon-block">
+                <h3><i class="mdi mdi-checkbox-marked-circle-outline lime-text"></i></h3>
+                <h3>Quality</h3>
+                <p class="light">With over 11 years of experience and a passion for lashes, I put my all into each and every customer.</p>
               </div>
             </div>
-            <div class ="col s1 l1 valign">
-              <a id = "forward" class="material-icons left">arrow_forward</a>
+          </li>
+          <li>
+            <div class="col s12 l4 hoverable">
+              <div class="center icon-block">
+                <h3><i class="mdi mdi-flash lime-text"></i></h3>
+                <h3>Creativity</h3>
+                <p class="light">Let me bring your lashes and brows to life! Come in with an idea and leave with a whole new look.</p>
+              </div>
             </div>
+          </li>
+
+          <li>
+            <div class="col s12 l4 hoverable">
+              <div class="center icon-block">
+                <h3><i class="mdi mdi-chemical-weapon lime-text"></i></h3>
+                <h3>Cutting Edge</h3>
+                <p class="light">In a fast moving industry, I am always on top of the latest trends and fashions.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Testimonies -->
+      <div id="quotes" class="row">
+        <div class="col s12 l6">
+          <div class="card-panel light-blue lighten-2 hoverable">
+            <span class="white-text">"I started going to Chrissy for eyelash extensions when she first began her business, 9 years ago.  I have been addicted to them ever since!  Chrissy is a true professional.  She takes her time with me, re-arranges schedules to make sure her clients are happy and tries new things that may work better with a particular person’s own lashes.  She is always looking to better herself in her profession by researching what’s new on the market and implementing that into her own practice.  She makes every appointment more like a visit with a girlfriend because she’s so warm and friendly.  I highly recommend Chrissy to anyone looking to improve their appearance with eyelash extensions.   She is the BEST!" - Cindy D.
+            </span>
+          </div>
+        </div> 
+        <div class="col s12 l6">
+          <div class="card-panel light-blue lighten-2 hoverable">
+            <span class="white-text">“I have been a client of Chrissy’s of Love Your Look for six years now. She is the absolute best! She always asks what my needs are, and ALWAYS exceeds my expectations. People always compliment me on how beautiful my lashes look, and are shocked when I tell them they are extensions because they look so natural! I have seen extensions by other specialists, but none compare to Chrissy’s. The other lashes I’ve seen are stiff and unnatural looking, and I am told they feel uncomfortable. I highly recommend Chrissy’s if you are looking for the best lash extensions around." - Cindy Savastano RN
+            </span>
           </div>
         </div>
       </div>
+      <div class="row">
+          <div class="col s12 l6 push-l3">
+            <div class="card-panel light-blue lighten-2 hoverable">
+              <span class="white-text">"Love Your Look is a wonderful salon.  Christina Occorso, owner, is an extremely talented young lady.  She has a passion and love for bringing out our beauty. I have been going to her over three years and she is the only person I trust.  Her work is impeccable!" - Cathy C.
+              </span>
+            </div>
+          </div>
+      </div>
     </div>
-
   </div>
-</div>
+  <!-- Contact Me -->
+  <div class="deep-purple darken-3 white-text">
 
-<!-- Contact Me -->
-<div class="deep-purple darken-3 white-text">
-    <!-- <div class="parallax-container valign-wrapper">
-      <div class="parallax"><img src="images/office.jpg" alt="Unsplashed background img 2"></div>
-    </div> -->
-    <div id="contact" class="container section scrollspy">
+    <div id="contact" class="container section">
       <div class="center">
         <h2 style="margin-bottom:0px;">Contact Me</h2>
         <p style="margin-top:0px;" class="light">Call me or shoot me an email</p>
       </div>
       <div class="row">
-        <div class="col m4 s12">
-          <p class="left-align light" style="line-height:1.5rem;">
-            Chrissy Occorso<br>coccorso@gmail.com<br>1330 Hamburg Turnpike, Floor 2<br>Wayne, NJ 07470<br>973-295-5224
+        <div class="col l4 s12">
+
+          <p class="center-align light" style="line-height:1.5rem;">
+            Chrissy Occorso<br>coccorso@gmail.com<br>1330 Hamburg Turnpike, Floor 2<br>Wayne, NJ 07470<br>Call: 973-646-8346 or Text: 973-295-5224
           </p>
           <div id="map"></div>
+          <p class="center-align light" style="line-height:1.5rem;">To access the back parking lot for parking and entrance to the studio, the best thing to do is type Manor Drive into your GPS (The building is on Hamburg, but the parking lot can be accessed from Manor Drive).   From Manor Drive make a quick left into the back parking lot of the building.  From the parking lot, it is the brown building on the left, Floor 2.   </p>
         </div>
-        <div class="col m7 s12 offset-m1">
+        <div class="col l7 s12 offset-l1">
           <div class="row">
             <form id="form" class="col s12" action="https://shrouded-beach-93379.herokuapp.com/sendMail" method="post">
               <div class="row">
                 <div class="input-field col s6">
-                  <i class="material-icons prefix">account_circle</i>
+                  <i class="mdi mdi-account-circle prefix"></i>
                   <input id="name" name="name" type="text" class="validate">
                   <label for="name">Name</label>
                 </div>
 
                 <div class="input-field col s6">
-                  <i class="material-icons prefix">email</i>
+                  <i class="mdi mdi-email prefix"></i>
                   <input id="email" type="email" name="email" class="validate">
                   <label for="email" data-error="Incorrect Email Format" data-success="right">Your Email</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                  <i class="material-icons prefix">toc</i>
+                  <i class="mdi mdi-view-headline prefix"></i>
                   <input id="subject" type="text" name="subject" class="validate">
                   <label for="subject">Subject</label>
                 </div>
               </div>
               <div class="row">
                 <div class="input-field col s12">
-                  <i class="material-icons prefix">mode_edit</i>
+                  <i class="mdi mdi-pencil prefix"></i>
                   <textarea id="body" name="body" class="materialize-textarea"></textarea>
                   <label for="body">Email Body</label>
                 </div>
               </div>
               <div class="center">
                 <button id="submit" type="submit" name="submit" class="btn waves-effect waves-light light-blue lighten-2">Submit
-                  <i class="material-icons right">send</i>
+                  <i class="mdi mdi-send right"></i>
                 </button>
               </div>
             </form>
@@ -415,6 +354,7 @@
 
 
   <!--  Scripts-->
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoQBbKkyYKHa5hxvZiJfleRaouj55aYak&callback=initMap" async defer></script>
   <script>
@@ -426,23 +366,16 @@
     }
 
 
-      // parallax
-      $('.carousel-slider').carousel({full_width: true});
-      $("#forward").bind("click",function(){
-        $('.carousel-slider').carousel("next");
-      });
-      $("#back").bind("click",function(){
-        $('.carousel-slider').carousel("prev");
-      });
+      
 
       $(document).ready(function(){
-
-        
-
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
-        $('.slider').slider({full_width: true});
-        
+        $('.slider').slider({full_width: true});  
+        animateCSS('#business_name',"bounce")
+        animateCSS('#lashes',"zoomInDown");
+        animateCSS('#brows',"zoomInDown");
+        animateCSS('#look',"zoomInDown"); 
       });
       
 
@@ -469,16 +402,7 @@
 
       ];
       Materialize.scrollFire(options);
-
-      $(document).ready(function(){
-
-        animateCSS('#business_name',"bounce")
-        animateCSS('#lashes',"zoomInDown");
-        animateCSS('#brows',"zoomInDown");
-        animateCSS('#look',"zoomInDown");
-        
-        
-      });
+      
 
     </script>
     <script>
@@ -501,7 +425,12 @@
     </script>
     <script>
       $("#form").submit(function(e) {
-       if( !$(this).val() ) {
+        var empty = "";
+        var email = $('#email').val();
+        var name = $('#name').val();
+        var subject = $('#subject').val();
+        var body = $('#body').val();
+       if( !email || !name) {
             Materialize.toast('Please Fill In All Fields', 4000,"red") // 4000 is the duration of the toast
 
           }
@@ -514,7 +443,7 @@
                data: $("#form").serialize(), // serializes the form's elements.
                success: function(data)
                {
-                     Materialize.toast('Email Sent', 4000) // 4000 is the duration of the toast
+                     Materialize.toast('Email Sent', 4000, "green") // 4000 is the duration of the toast
 
                    }
                  });

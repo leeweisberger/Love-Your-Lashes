@@ -5,9 +5,12 @@
  *
  * Made By MaterializeCSS.com
  */
-
+html, body { width:100%;  overflow-x:hidden; }
 nav .page-title{
   height: 100%;
+}
+.hi{
+  height:5000px;
 }
 
 nav ul a{
@@ -107,16 +110,20 @@ nav div a img:hover{
   background: red;
 }
 
+.green{
+  background: green;
+}
+
 .white-text{
   color:white;
 }
 
 .fill-screen-almost{
-  height:calc(100vh - 64px);
+  min-height:calc(100vh - 64px);
 }
 
 .fill-screen{
-  height: 105vh;
+  min-height: 105vh;
 }
 
 h1{
@@ -131,6 +138,11 @@ h6{
 }
 .loopy {
   font: 400 400% 'Cookie', Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+.loopy-med {
+  font: 400 600% 'Cookie', Helvetica, sans-serif;
   color: #fff;
   text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
 }
@@ -164,17 +176,46 @@ li div{
   margin-top: 64px;
 }
 
+.margin-above-big{
+  margin-top: 128px;
+}
+
 .stand-out{
   color: #81d4fa;
   font-size:150%;
 }
 
-.carousel .card{
+.slides .card{
   height:100%;
 }
 
 #forward, #back {
      cursor: pointer
+}
+
+@media only screen and (max-device-width: 450px) and (orientation: portrait){
+  .fill-screen{
+    height:100%;
+  }
+  
+}
+
+@media only screen and (max-device-height:500px) and (orientation:landscape){
+  .fill-screen{
+    height:100%;
+  }
+
+  .parallax div ul li img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 

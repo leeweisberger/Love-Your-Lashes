@@ -6907,6 +6907,7 @@ Picker.extend( 'pickadate', DatePicker )
 
 
     $.fn.carousel = function(methodOrOptions) {
+    	alert("hi");
       if ( methods[methodOrOptions] ) {
         return methods[ methodOrOptions ].apply( this, Array.prototype.slice.call( arguments, 1 ));
       } else if ( typeof methodOrOptions === 'object' || ! methodOrOptions ) {
